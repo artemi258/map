@@ -11,9 +11,15 @@ map.addEventListener(
     blockInfo.forEach((elem) => {
       elem.style.display = "none";
     });
+    paths.forEach((elem) => {
+      elem.style.fill = "black";
+    });
     for (let i = 0; i < blockInfo.length; i++) {
       const blockRegion = blockInfo[i].getAttribute("data-region");
-      if (region === blockRegion) blockInfo[i].style.display = "block";
+      if (region === blockRegion) {
+        blockInfo[i].style.display = "block";
+        target.style.fill = "red";
+      }
     }
   },
   true
