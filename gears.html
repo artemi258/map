@@ -161,6 +161,9 @@
       href="https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700,800,900&subset=cyrillic"
       type="text/css"
     />
+    <script defer src="./js/form.js"></script>
+    <script defer src="./js/popup.js"></script>
+
     <script type="text/javascript">
       (function (d) {
         if (!d.visibilityState) {
@@ -1873,7 +1876,7 @@
                               text-transform: uppercase;
                             "
                             ><table
-                              role="presentation"
+                              role="dialog"
                               style="width: 100%; height: 100%"
                             >
                               <tr>
@@ -3299,16 +3302,7 @@
                 class="t030__descr t-descr t-descr_md"
                 field="descr"
                 style=""
-              >
-                <div style="color: #ff0000" data-customstyle="yes">
-                  <strong
-                    >Внимание! Сумма минимального заказа составляет
-                    <span style="font-weight: 600" data-redactor-tag="span"
-                      >5000р</span
-                    >.</strong
-                  ><br /><br />
-                </div>
-              </div>
+              ></div>
             </div>
           </div>
         </div>
@@ -3468,534 +3462,7 @@
         data-record-type="744"
       >
         <!-- t744 -->
-        <div class="t702">
-          <div
-            class="t-popup"
-            data-tooltip-hook="#quickorder"
-            data-track-popup="/tilda/popup/rec177834072/opened"
-            role="dialog"
-            aria-modal="true"
-            tabindex="-1"
-            aria-label=" Быстрый заказ! "
-          >
-            <div class="t-popup__container t-width t-width_8">
-              <div class="t702__wrapper">
-                <div class="t702__text-wrapper t-align_left">
-                  <div class="t702__title t-title t-title_xxs" style="">
-                    <div style="font-size: 22px" data-customstyle="yes">
-                      Быстрый заказ!
-                    </div>
-                  </div>
-                  <div class="t702__descr t-descr t-descr_xs" style="">
-                    <div style="font-size: 14px" data-customstyle="yes">
-                      <span style="font-weight: 400"
-                        >Заполните пожалуйста форму и мы рассчитаем стоимость и
-                        сроки выполнения Вашего заказа. <br />С целью повышения
-                        качества обслуживания
-                        <u>все поля обязательны для заполнения.</u><br
-                      /></span>
-                    </div>
-                  </div>
-                </div>
-                <form id="form">
-                  <input
-                    type="hidden"
-                    name="formservices[]"
-                    value="1ce742535d5cd1225f3484dde32f89fb"
-                    class="js-formaction-services"
-                  /><input
-                    type="hidden"
-                    name="formservices[]"
-                    value="3b80699bcced45fd0cb38b768e73ebaf"
-                    class="js-formaction-services"
-                  /><input
-                    type="hidden"
-                    name="formservices[]"
-                    value="4f56d82c07c4478baeec4cb367e9c62c"
-                    class="js-formaction-services"
-                  /><input
-                    type="hidden"
-                    name="formservices[]"
-                    value="bbc10c31085424df00eb52011c9364d4"
-                    class="js-formaction-services"
-                  /><input
-                    type="hidden"
-                    name="tildaspec-formname"
-                    tabindex="-1"
-                    value="Заказ_3Дпечать"
-                  />
-                  <div
-                    class="js-successbox t-form__successbox t-text t-text_md"
-                    aria-live="polite"
-                    style="display: none"
-                    data-success-message="Благодарим за заявку! Мы свяжемся с Вами в ближайшее время!"
-                  ></div>
-                  <div class="t-form__inputsbox">
-                    <div
-                      class="t-input-group t-input-group_nm"
-                      data-input-lid="1549735962736"
-                    >
-                      <label
-                        for="input_1549735962736"
-                        class="t-input-title t-descr t-descr_md"
-                        id="field-title_1549735962736"
-                        data-redactor-toolbar="no"
-                        field="li_title__1549735962736"
-                        style="font-weight: 500"
-                        >Имя:</label
-                      >
-                      <div
-                        class="t-input-block"
-                        style="
-                          border-radius: 8px;
-                          -moz-border-radius: 8px;
-                          -webkit-border-radius: 8px;
-                        "
-                      >
-                        <input
-                          required
-                          type="text"
-                          autocomplete="name"
-                          name="name"
-                          id="input_1549735962736"
-                          class="t-input js-tilda-rule"
-                          value=""
-                          placeholder="Иван Иванов"
-                          data-tilda-req="1"
-                          aria-required="true"
-                          data-tilda-rule="name"
-                          aria-describedby="error_1549735962736"
-                          style="
-                            color: #000000;
-                            border: 1px solid #000000;
-                            border-radius: 8px;
-                            -moz-border-radius: 8px;
-                            -webkit-border-radius: 8px;
-                          "
-                        />
-                        <div
-                          class="t-input-error"
-                          aria-live="polite"
-                          id="error_1549735962736"
-                        ></div>
-                      </div>
-                    </div>
-                    <div
-                      class="t-input-group t-input-group_ph"
-                      data-input-lid="1549735923340"
-                    >
-                      <label
-                        for="input_1549735923340"
-                        class="t-input-title t-descr t-descr_md"
-                        id="field-title_1549735923340"
-                        data-redactor-toolbar="no"
-                        field="li_title__1549735923340"
-                        style="font-weight: 500"
-                        >Телефон:</label
-                      >
-                      <div
-                        class="t-input-block"
-                        style="
-                          border-radius: 8px;
-                          -moz-border-radius: 8px;
-                          -webkit-border-radius: 8px;
-                        "
-                      >
-                        <input
-                          required
-                          type="tel"
-                          autocomplete="tel"
-                          name="phone"
-                          id="input_1549735923340"
-                          class="t-input js-tilda-rule js-tilda-mask"
-                          value="+996"
-                          placeholder="+996 (555) 123-456"
-                          data-tilda-req="1"
-                          aria-required="true"
-                          data-tilda-rule="phone"
-                          maxlength="13"
-                          aria-describedby="error_1549735923340"
-                          style="
-                            color: #000000;
-                            border: 1px solid #000000;
-                            border-radius: 8px;
-                            -moz-border-radius: 8px;
-                            -webkit-border-radius: 8px;
-                          "
-                        /><input
-                          type="hidden"
-                          name="tildaspec-mask-Phone"
-                          id="input_1549735923340"
-                          value="+996999999999"
-                          aria-describedby="error_1549735923340"
-                        />
-                        <div
-                          class="t-input-error"
-                          aria-live="polite"
-                          id="error_1549735923340"
-                        ></div>
-                      </div>
-                    </div>
-                    <div
-                      class="t-input-group t-input-group_em"
-                      data-input-lid="1552732373748"
-                    >
-                      <label
-                        for="input_1552732373748"
-                        class="t-input-title t-descr t-descr_md"
-                        id="field-title_1552732373748"
-                        data-redactor-toolbar="no"
-                        field="li_title__1552732373748"
-                        style="font-weight: 500"
-                        >E-mail:</label
-                      >
-                      <div
-                        class="t-input-block"
-                        style="
-                          border-radius: 8px;
-                          -moz-border-radius: 8px;
-                          -webkit-border-radius: 8px;
-                        "
-                      >
-                        <input
-                          required
-                          type="text"
-                          autocomplete="email"
-                          name="email"
-                          id="input_1552732373748"
-                          class="t-input js-tilda-rule"
-                          value=""
-                          placeholder="example@site.ru"
-                          data-tilda-req="1"
-                          aria-required="true"
-                          data-tilda-rule="email"
-                          aria-describedby="error_1552732373748"
-                          style="
-                            color: #000000;
-                            border: 1px solid #000000;
-                            border-radius: 8px;
-                            -moz-border-radius: 8px;
-                            -webkit-border-radius: 8px;
-                          "
-                        />
-                        <div
-                          class="t-input-error"
-                          aria-live="polite"
-                          id="error_1552732373748"
-                        ></div>
-                      </div>
-                    </div>
-                    <div
-                      class="t-input-group t-input-group_ta"
-                      data-input-lid="1493283059688"
-                    >
-                      <label
-                        for="input_1493283059688"
-                        class="t-input-title t-descr t-descr_md"
-                        id="field-title_1493283059688"
-                        data-redactor-toolbar="no"
-                        field="li_title__1493283059688"
-                        style="font-weight: 500"
-                        >Опишите свою задачу:</label
-                      >
-                      <div
-                        class="t-input-block"
-                        style="
-                          border-radius: 8px;
-                          -moz-border-radius: 8px;
-                          -webkit-border-radius: 8px;
-                        "
-                      >
-                        <textarea
-                          required
-                          name="message"
-                          id="input_1493283059688"
-                          class="t-input js-tilda-rule"
-                          placeholder="Кратко опишите, что Вам необходимо изготовить или отсканировать. Подробности обсудим по телефону или в Whatsapp."
-                          data-tilda-req="1"
-                          aria-required="true"
-                          aria-describedby="error_1493283059688"
-                          style="
-                            color: #000000;
-                            border: 1px solid #000000;
-                            border-radius: 8px;
-                            -moz-border-radius: 8px;
-                            -webkit-border-radius: 8px;
-                            height: 102px;
-                          "
-                          rows="3"
-                        ></textarea>
-                        <div
-                          class="t-input-error"
-                          aria-live="polite"
-                          id="error_1493283059688"
-                        ></div>
-                      </div>
-                    </div>
-                    <div
-                      class="t-input-group t-input-group_uw"
-                      data-input-lid="1549729713241"
-                    >
-                      <div
-                        class="t-input-block"
-                        style="
-                          border-radius: 8px;
-                          -moz-border-radius: 8px;
-                          -webkit-border-radius: 8px;
-                        "
-                      >
-                        <div class="t-upwidget" style="margin-bottom: 10px">
-                          <input
-                            type="text"
-                            type="hidden"
-                            role="upwidget-uploader"
-                            class="js-tilda-rule"
-                            name="Прикрепить файлы в форматах STLZIPRAR"
-                            data-tilda-upwidget-key="google-a1a2cf76ae7b6f81d03d141"
-                            data-tilda-upwidget-multiple="1"
-                            style="display: none"
-                          />
-                          <script
-                            src="https://static.tildacdn.com/js/tilda-upwidget-1.1.min.js"
-                            async=""
-                          ></script>
-                        </div>
-                        <div
-                          class="t-input-error"
-                          aria-live="polite"
-                          id="error_1549729713241"
-                        ></div>
-                      </div>
-                    </div>
-                    <div
-                      class="t-input-group t-input-group_cb"
-                      data-input-lid="1550750488091"
-                    >
-                      <div
-                        class="t-input-block"
-                        style="
-                          border-radius: 8px;
-                          -moz-border-radius: 8px;
-                          -webkit-border-radius: 8px;
-                        "
-                      >
-                        <div
-                          class="t-input-error"
-                          aria-live="polite"
-                          id="error_1550750488091"
-                        ></div>
-                      </div>
-                    </div>
-                    <!--[if IE 8
-                      ]><style>
-                        .t-checkbox__control .t-checkbox,
-                        .t-radio__control .t-radio {
-                          left: 0px;
-                          z-index: 1;
-                          opacity: 1;
-                        }
-                        .t-checkbox__indicator,
-                        .t-radio__indicator {
-                          display: none;
-                        }
-                        .t-img-select__control .t-img-select {
-                          position: static;
-                        }
-                      </style><!
-                    [endif]-->
-                    <div class="t-form__errorbox-middle">
-                      <div
-                        class="js-errorbox-all t-form__errorbox-wrapper"
-                        style="display: none"
-                      >
-                        <div class="t-form__errorbox-text t-text t-text_md">
-                          <p
-                            class="t-form__errorbox-item js-rule-error js-rule-error-all"
-                          ></p>
-                          <p
-                            class="t-form__errorbox-item js-rule-error js-rule-error-req"
-                          ></p>
-                          <p
-                            class="t-form__errorbox-item js-rule-error js-rule-error-email"
-                          ></p>
-                          <p
-                            class="t-form__errorbox-item js-rule-error js-rule-error-name"
-                          ></p>
-                          <p
-                            class="t-form__errorbox-item js-rule-error js-rule-error-phone"
-                          ></p>
-                          <p
-                            class="t-form__errorbox-item js-rule-error js-rule-error-minlength"
-                          ></p>
-                          <p
-                            class="t-form__errorbox-item js-rule-error js-rule-error-string"
-                          ></p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="t-form__submit">
-                      <button
-                        class="t-submit"
-                        style="
-                          color: #ffffff;
-                          background-color: #ff6600;
-                          border-radius: 8px;
-                          -moz-border-radius: 8px;
-                          -webkit-border-radius: 8px;
-                        "
-                      >
-                        Отправить заявку!
-                      </button>
-                    </div>
-                  </div>
-                  <div class="t-form__errorbox-bottom">
-                    <div
-                      class="js-errorbox-all t-form__errorbox-wrapper"
-                      style="display: none"
-                    >
-                      <div class="t-form__errorbox-text t-text t-text_md">
-                        <p
-                          class="t-form__errorbox-item js-rule-error js-rule-error-all"
-                        ></p>
-                        <p
-                          class="t-form__errorbox-item js-rule-error js-rule-error-req"
-                        ></p>
-                        <p
-                          class="t-form__errorbox-item js-rule-error js-rule-error-email"
-                        ></p>
-                        <p
-                          class="t-form__errorbox-item js-rule-error js-rule-error-name"
-                        ></p>
-                        <p
-                          class="t-form__errorbox-item js-rule-error js-rule-error-phone"
-                        ></p>
-                        <p
-                          class="t-form__errorbox-item js-rule-error js-rule-error-minlength"
-                        ></p>
-                        <p
-                          class="t-form__errorbox-item js-rule-error js-rule-error-string"
-                        ></p>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-                <style>
-                  #rec177834072 input::-webkit-input-placeholder {
-                    color: #000000;
-                    opacity: 0.5;
-                  }
-                  #rec177834072 input::-moz-placeholder {
-                    color: #000000;
-                    opacity: 0.5;
-                  }
-                  #rec177834072 input:-moz-placeholder {
-                    color: #000000;
-                    opacity: 0.5;
-                  }
-                  #rec177834072 input:-ms-input-placeholder {
-                    color: #000000;
-                    opacity: 0.5;
-                  }
-                  #rec177834072 textarea::-webkit-input-placeholder {
-                    color: #000000;
-                    opacity: 0.5;
-                  }
-                  #rec177834072 textarea::-moz-placeholder {
-                    color: #000000;
-                    opacity: 0.5;
-                  }
-                  #rec177834072 textarea:-moz-placeholder {
-                    color: #000000;
-                    opacity: 0.5;
-                  }
-                  #rec177834072 textarea:-ms-input-placeholder {
-                    color: #000000;
-                    opacity: 0.5;
-                  }
-                </style>
-                <div
-                  class="t702__form-bottom-text t-text t-text_xs t-align_left"
-                >
-                  <div style="font-size: 14px" data-customstyle="yes">
-                    <div style="font-size: 14px" data-customstyle="yes"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="t-popup__close t-popup__block-close">
-              <button
-                type="button"
-                class="t-popup__close-wrapper t-popup__block-close-button"
-                aria-label="Закрыть диалог"
-              >
-                <svg
-                  role="presentation"
-                  class="t-popup__close-icon"
-                  width="23px"
-                  height="23px"
-                  viewbox="0 0 23 23"
-                  version="1.1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <g
-                    stroke="none"
-                    stroke-width="1"
-                    fill="#fff"
-                    fill-rule="evenodd"
-                  >
-                    <rect
-                      transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) "
-                      x="10.3137085"
-                      y="-3.6862915"
-                      width="2"
-                      height="30"
-                    ></rect>
-                    <rect
-                      transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) "
-                      x="10.3137085"
-                      y="-3.6862915"
-                      width="2"
-                      height="30"
-                    ></rect>
-                  </g>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-        <script>
-          t_onReady(function () {
-            t_onFuncLoad("t702_initPopup", function () {
-              t702_initPopup("255332118");
-            });
-            /* fix for Android */
-            var userAgent = navigator.userAgent.toLowerCase();
-            var isAndroid = userAgent.indexOf("android") !== -1;
-            var body = document.body;
-            if (!body) return;
-            var isScrollablefFix = body.classList.contains(
-              "t-body_scrollable-fix-for-android"
-            );
-            if (isAndroid && !isScrollablefFix) {
-              body.classList.add("t-body_scrollable-fix-for-android");
-              document.head.insertAdjacentHTML(
-                "beforeend",
-                "<style>@media screen and (max-width: 560px) {\n.t-body_scrollable-fix-for-android {\noverflow: visible !important;\n}\n}\n</style>"
-              );
-              console.log("Android css fix was inited");
-            }
-          });
-        </script>
-      </div>
-      <div
-        id="rec178854973"
-        class="r t-rec t-rec_pt_90 t-rec_pb_15 t-screenmin-480px"
-        style="padding-top: 90px; padding-bottom: 15px"
-        data-animationappear="off"
-        data-record-type="255"
-        data-screen-min="480px"
-      >
+
         <!-- T225 -->
         <div class="t225">
           <div class="t-container t-align_center">
@@ -4115,111 +3582,28 @@
                           >zakaz</span
                         ></span
                       ><a
-                        href="mailto:mailto:zakaz@totalprint3d.ru"
+                        href="mailto:mailto:zakaz@3d.com.kg"
                         style="
                           border-bottom: 0px solid;
                           box-shadow: 0px 0px 0px 0px inset;
                           color: rgb(0, 0, 0) !important;
                         "
-                        ><span style="font-weight: 400"
-                          >@totalprint3d.ru</span
-                        ></a
+                        ><span style="font-weight: 400">@3d.com.kg</span></a
                       ><br />Телефон:
                       <span style="font-weight: 400"
-                        ><a href="tel:+74951091972" style=""
-                          >+7(495)109-19-72</a
+                        ><a href="tel:+996555996000" style=""
+                          >+996 (555) 996-000</a
                         ></span
                       ><br /><br />Офис и производство:</span
                     ><br /><span style="font-weight: 400"
-                      >Москва, Внуково, Ул. 1-я рейсовая д.6</span
+                      >Республика Кыргызстан, г.Бишкек</span
                     ><br /><br /><span style="font-weight: 700"
-                      >Прием образцов и выдача заказов:</span
-                    ><br />Москва, Ленинградский пр-т д.45Гк37<br /><span
-                      style="font-weight: 600"
-                      ><span
-                        style="color: rgb(255, 0, 0)"
-                        data-redactor-style="color: rgb(255, 0, 0);"
-                        >ТОЛЬКО В БУДНИ!</span
-                      ></span
-                    >
-                    с 8:00 до 16:30.<br /><br /><span style="font-weight: 700"
                       >Время работы:</span
                     ><br />Будни: 10:00-19:00 (перерыв 13:00-14:00)<br />Выходные:
-                    10:00-16:00 (перерыв 13:00-14:00)<br /><br /><span
-                      style="font-weight: 400"
-                      ><a
-                        href="https://drive.google.com/file/d/1txhpTqSNbS-6V_waYnHrm4fgNJZm2z4K/view?usp=sharing"
-                        style=""
-                        >Скачать реквизиты организации</a
-                      ></span
-                    ><br /><br /><br />
+                    10:00-16:00 (перерыв 13:00-14:00)<br /><br />
+                    <br /><br /><br />
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="t-col t-col_6">
-              <div
-                class="t-map-lazyload t555__map"
-                style="
-                  height: 400px;
-                  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-                "
-                data-maplazy-load="false"
-              >
-                <div
-                  class="t-map"
-                  id="separateMap182330798"
-                  data-map-language=""
-                  data-map-x="-74.005941"
-                  data-map-y="40.7127837"
-                  data-map-zoom="20"
-                  style="width: 100%; height: 400px"
-                  data-map-style='[{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#d3d3d3"}]},{"featureType":"transit","stylers":[{"color":"#808080"},{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#b3b3b3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"weight":1.8}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#d7d7d7"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ebebeb"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#a7a7a7"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#efefef"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#696969"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#737373"}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#d6d6d6"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#dadada"}]}]'
-                ></div>
-                <script type="text/javascript">
-                  var arMapMarkers182330798 = [
-                    {
-                      title: "Пункт приема и выдачи заказов",
-                      descr: "",
-                      lat: "55.797119",
-                      lng: "37.532214",
-                    },
-                    {
-                      title: "Центральный офис и производство",
-                      descr: "",
-                      lat: "55.610428",
-                      lng: "37.29488",
-                    },
-                  ];
-                  t_onReady(function () {
-                    t_map_lazyload_add_map();
-                    window.addEventListener(
-                      "scroll",
-                      t_throttle(t_map_lazyload_add_map, 300)
-                    );
-                    function t_map_lazyload_add_map() {
-                      var windowHeight = window.innerHeight;
-                      var scrollDiffHeigth = 700;
-                      var rec = document.getElementById("rec" + 182330798);
-                      if (!rec) return;
-                      var map = rec.querySelector(".t-map-lazyload");
-                      if (!map) return;
-                      var blockTop =
-                        map.getBoundingClientRect().top + window.pageYOffset;
-                      if (
-                        window.pageYOffset >
-                        blockTop - windowHeight - scrollDiffHeigth
-                      ) {
-                        if (map.getAttribute("data-maplazy-load") === "false") {
-                          map.setAttribute("data-maplazy-load", "true");
-                          t_onFuncLoad("t_appendYandexMap", function () {
-                            t_appendYandexMap("182330798", "");
-                          });
-                        }
-                      }
-                    }
-                  });
-                </script>
               </div>
             </div>
           </div>
@@ -4296,6 +3680,532 @@ c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5L25.503,16.881z"
           });
         </script>
       </div>
+      <div class="t702">
+        <div
+          class="t-popup"
+          data-tooltip-hook="#quickorder"
+          data-track-popup="/tilda/popup/rec177834072/opened"
+          role="dialog"
+          aria-modal="true"
+          tabindex="-1"
+          aria-label=" Быстрый заказ! "
+        >
+          <div class="t-popup__container t-width t-width_8">
+            <div class="t702__wrapper">
+              <div class="t702__text-wrapper t-align_left">
+                <div class="t702__title t-title t-title_xxs" style="">
+                  <div style="font-size: 22px" data-customstyle="yes">
+                    Быстрый заказ!
+                  </div>
+                </div>
+                <div class="t702__descr t-descr t-descr_xs" style="">
+                  <div style="font-size: 14px" data-customstyle="yes">
+                    <span style="font-weight: 400"
+                      >Заполните пожалуйста форму и мы рассчитаем стоимость и
+                      сроки выполнения Вашего заказа. <br />С целью повышения
+                      качества обслуживания
+                      <u>все поля обязательны для заполнения.</u><br
+                    /></span>
+                  </div>
+                </div>
+              </div>
+              <form id="form">
+                <input
+                  type="hidden"
+                  name="formservices[]"
+                  value="1ce742535d5cd1225f3484dde32f89fb"
+                  class="js-formaction-services"
+                /><input
+                  type="hidden"
+                  name="formservices[]"
+                  value="3b80699bcced45fd0cb38b768e73ebaf"
+                  class="js-formaction-services"
+                /><input
+                  type="hidden"
+                  name="formservices[]"
+                  value="4f56d82c07c4478baeec4cb367e9c62c"
+                  class="js-formaction-services"
+                /><input
+                  type="hidden"
+                  name="formservices[]"
+                  value="bbc10c31085424df00eb52011c9364d4"
+                  class="js-formaction-services"
+                /><input
+                  type="hidden"
+                  name="tildaspec-formname"
+                  tabindex="-1"
+                  value="Заказ_3Дпечать"
+                />
+                <div
+                  class="js-successbox t-form__successbox t-text t-text_md"
+                  aria-live="polite"
+                  style="display: none"
+                  data-success-message="Благодарим за заявку! Мы свяжемся с Вами в ближайшее время!"
+                ></div>
+                <div class="t-form__inputsbox">
+                  <div
+                    class="t-input-group t-input-group_nm"
+                    data-input-lid="1549735962736"
+                  >
+                    <label
+                      for="input_1549735962736"
+                      class="t-input-title t-descr t-descr_md"
+                      id="field-title_1549735962736"
+                      data-redactor-toolbar="no"
+                      field="li_title__1549735962736"
+                      style="font-weight: 500"
+                      >Имя:</label
+                    >
+                    <div
+                      class="t-input-block"
+                      style="
+                        border-radius: 8px;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                      "
+                    >
+                      <input
+                        required
+                        type="text"
+                        autocomplete="name"
+                        name="name"
+                        id="input_1549735962736"
+                        class="t-input js-tilda-rule"
+                        value=""
+                        placeholder="Иван Иванов"
+                        data-tilda-req="1"
+                        aria-required="true"
+                        data-tilda-rule="name"
+                        aria-describedby="error_1549735962736"
+                        style="
+                          color: #000000;
+                          border: 1px solid #000000;
+                          border-radius: 8px;
+                          -moz-border-radius: 8px;
+                          -webkit-border-radius: 8px;
+                        "
+                      />
+                      <div
+                        class="t-input-error"
+                        aria-live="polite"
+                        id="error_1549735962736"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="t-input-group t-input-group_ph"
+                    data-input-lid="1549735923340"
+                  >
+                    <label
+                      for="input_1549735923340"
+                      class="t-input-title t-descr t-descr_md"
+                      id="field-title_1549735923340"
+                      data-redactor-toolbar="no"
+                      field="li_title__1549735923340"
+                      style="font-weight: 500"
+                      >Телефон:</label
+                    >
+                    <div
+                      class="t-input-block"
+                      style="
+                        border-radius: 8px;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                      "
+                    >
+                      <input
+                        required
+                        type="tel"
+                        autocomplete="tel"
+                        name="phone"
+                        id="input_1549735923340"
+                        class="t-input js-tilda-rule js-tilda-mask"
+                        value="+996"
+                        placeholder="+996 (555) 123-456"
+                        data-tilda-req="1"
+                        aria-required="true"
+                        data-tilda-rule="phone"
+                        maxlength="13"
+                        aria-describedby="error_1549735923340"
+                        style="
+                          color: #000000;
+                          border: 1px solid #000000;
+                          border-radius: 8px;
+                          -moz-border-radius: 8px;
+                          -webkit-border-radius: 8px;
+                        "
+                      /><input
+                        type="hidden"
+                        name="tildaspec-mask-Phone"
+                        id="input_1549735923340"
+                        value="+996999999999"
+                        aria-describedby="error_1549735923340"
+                      />
+                      <div
+                        class="t-input-error"
+                        aria-live="polite"
+                        id="error_1549735923340"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="t-input-group t-input-group_em"
+                    data-input-lid="1552732373748"
+                  >
+                    <label
+                      for="input_1552732373748"
+                      class="t-input-title t-descr t-descr_md"
+                      id="field-title_1552732373748"
+                      data-redactor-toolbar="no"
+                      field="li_title__1552732373748"
+                      style="font-weight: 500"
+                      >E-mail:</label
+                    >
+                    <div
+                      class="t-input-block"
+                      style="
+                        border-radius: 8px;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                      "
+                    >
+                      <input
+                        required
+                        type="text"
+                        autocomplete="email"
+                        name="email"
+                        id="input_1552732373748"
+                        class="t-input js-tilda-rule"
+                        value=""
+                        placeholder="example@site.ru"
+                        data-tilda-req="1"
+                        aria-required="true"
+                        data-tilda-rule="email"
+                        aria-describedby="error_1552732373748"
+                        style="
+                          color: #000000;
+                          border: 1px solid #000000;
+                          border-radius: 8px;
+                          -moz-border-radius: 8px;
+                          -webkit-border-radius: 8px;
+                        "
+                      />
+                      <div
+                        class="t-input-error"
+                        aria-live="polite"
+                        id="error_1552732373748"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="t-input-group t-input-group_ta"
+                    data-input-lid="1493283059688"
+                  >
+                    <label
+                      for="input_1493283059688"
+                      class="t-input-title t-descr t-descr_md"
+                      id="field-title_1493283059688"
+                      data-redactor-toolbar="no"
+                      field="li_title__1493283059688"
+                      style="font-weight: 500"
+                      >Опишите свою задачу:</label
+                    >
+                    <div
+                      class="t-input-block"
+                      style="
+                        border-radius: 8px;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                      "
+                    >
+                      <textarea
+                        required
+                        name="message"
+                        id="input_1493283059688"
+                        class="t-input js-tilda-rule"
+                        placeholder="Кратко опишите, что Вам необходимо изготовить или отсканировать. Подробности обсудим по телефону или в Whatsapp."
+                        data-tilda-req="1"
+                        aria-required="true"
+                        aria-describedby="error_1493283059688"
+                        style="
+                          color: #000000;
+                          border: 1px solid #000000;
+                          border-radius: 8px;
+                          -moz-border-radius: 8px;
+                          -webkit-border-radius: 8px;
+                          height: 102px;
+                        "
+                        rows="3"
+                      ></textarea>
+                      <div
+                        class="t-input-error"
+                        aria-live="polite"
+                        id="error_1493283059688"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="t-input-group t-input-group_uw"
+                    data-input-lid="1549729713241"
+                  >
+                    <div
+                      class="t-input-block"
+                      style="
+                        border-radius: 8px;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                      "
+                    >
+                      <div class="t-upwidget" style="margin-bottom: 10px">
+                        <input
+                          type="text"
+                          type="hidden"
+                          role="upwidget-uploader"
+                          class="js-tilda-rule"
+                          name="Прикрепить файлы в форматах STLZIPRAR"
+                          data-tilda-upwidget-key="google-a1a2cf76ae7b6f81d03d141"
+                          data-tilda-upwidget-multiple="1"
+                          style="display: none"
+                        />
+                        <script
+                          src="https://static.tildacdn.com/js/tilda-upwidget-1.1.min.js"
+                          async=""
+                        ></script>
+                      </div>
+                      <div
+                        class="t-input-error"
+                        aria-live="polite"
+                        id="error_1549729713241"
+                      ></div>
+                    </div>
+                  </div>
+                  <div
+                    class="t-input-group t-input-group_cb"
+                    data-input-lid="1550750488091"
+                  >
+                    <div
+                      class="t-input-block"
+                      style="
+                        border-radius: 8px;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                      "
+                    >
+                      <div
+                        class="t-input-error"
+                        aria-live="polite"
+                        id="error_1550750488091"
+                      ></div>
+                    </div>
+                  </div>
+                  <!--[if IE 8
+                    ]><style>
+                      .t-checkbox__control .t-checkbox,
+                      .t-radio__control .t-radio {
+                        left: 0px;
+                        z-index: 1;
+                        opacity: 1;
+                      }
+                      .t-checkbox__indicator,
+                      .t-radio__indicator {
+                        display: none;
+                      }
+                      .t-img-select__control .t-img-select {
+                        position: static;
+                      }
+                    </style><!
+                  [endif]-->
+                  <div class="t-form__errorbox-middle">
+                    <div
+                      class="js-errorbox-all t-form__errorbox-wrapper"
+                      style="display: none"
+                    >
+                      <div class="t-form__errorbox-text t-text t-text_md">
+                        <p
+                          class="t-form__errorbox-item js-rule-error js-rule-error-all"
+                        ></p>
+                        <p
+                          class="t-form__errorbox-item js-rule-error js-rule-error-req"
+                        ></p>
+                        <p
+                          class="t-form__errorbox-item js-rule-error js-rule-error-email"
+                        ></p>
+                        <p
+                          class="t-form__errorbox-item js-rule-error js-rule-error-name"
+                        ></p>
+                        <p
+                          class="t-form__errorbox-item js-rule-error js-rule-error-phone"
+                        ></p>
+                        <p
+                          class="t-form__errorbox-item js-rule-error js-rule-error-minlength"
+                        ></p>
+                        <p
+                          class="t-form__errorbox-item js-rule-error js-rule-error-string"
+                        ></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="t-form__submit">
+                    <button
+                      class="t-submit"
+                      style="
+                        color: #ffffff;
+                        background-color: #ff6600;
+                        border-radius: 8px;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                      "
+                    >
+                      Отправить заявку!
+                    </button>
+                  </div>
+                </div>
+                <div class="t-form__errorbox-bottom">
+                  <div
+                    class="js-errorbox-all t-form__errorbox-wrapper"
+                    style="display: none"
+                  >
+                    <div class="t-form__errorbox-text t-text t-text_md">
+                      <p
+                        class="t-form__errorbox-item js-rule-error js-rule-error-all"
+                      ></p>
+                      <p
+                        class="t-form__errorbox-item js-rule-error js-rule-error-req"
+                      ></p>
+                      <p
+                        class="t-form__errorbox-item js-rule-error js-rule-error-email"
+                      ></p>
+                      <p
+                        class="t-form__errorbox-item js-rule-error js-rule-error-name"
+                      ></p>
+                      <p
+                        class="t-form__errorbox-item js-rule-error js-rule-error-phone"
+                      ></p>
+                      <p
+                        class="t-form__errorbox-item js-rule-error js-rule-error-minlength"
+                      ></p>
+                      <p
+                        class="t-form__errorbox-item js-rule-error js-rule-error-string"
+                      ></p>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <style>
+                #rec177834072 input::-webkit-input-placeholder {
+                  color: #000000;
+                  opacity: 0.5;
+                }
+                #rec177834072 input::-moz-placeholder {
+                  color: #000000;
+                  opacity: 0.5;
+                }
+                #rec177834072 input:-moz-placeholder {
+                  color: #000000;
+                  opacity: 0.5;
+                }
+                #rec177834072 input:-ms-input-placeholder {
+                  color: #000000;
+                  opacity: 0.5;
+                }
+                #rec177834072 textarea::-webkit-input-placeholder {
+                  color: #000000;
+                  opacity: 0.5;
+                }
+                #rec177834072 textarea::-moz-placeholder {
+                  color: #000000;
+                  opacity: 0.5;
+                }
+                #rec177834072 textarea:-moz-placeholder {
+                  color: #000000;
+                  opacity: 0.5;
+                }
+                #rec177834072 textarea:-ms-input-placeholder {
+                  color: #000000;
+                  opacity: 0.5;
+                }
+              </style>
+              <div class="t702__form-bottom-text t-text t-text_xs t-align_left">
+                <div style="font-size: 14px" data-customstyle="yes">
+                  <div style="font-size: 14px" data-customstyle="yes"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t-popup__close t-popup__block-close">
+            <button
+              type="button"
+              class="t-popup__close-wrapper t-popup__block-close-button"
+              aria-label="Закрыть диалог"
+            >
+              <svg
+                role="presentation"
+                class="t-popup__close-icon"
+                width="23px"
+                height="23px"
+                viewbox="0 0 23 23"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g
+                  stroke="none"
+                  stroke-width="1"
+                  fill="#fff"
+                  fill-rule="evenodd"
+                >
+                  <rect
+                    transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) "
+                    x="10.3137085"
+                    y="-3.6862915"
+                    width="2"
+                    height="30"
+                  ></rect>
+                  <rect
+                    transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) "
+                    x="10.3137085"
+                    y="-3.6862915"
+                    width="2"
+                    height="30"
+                  ></rect>
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <script>
+        t_onReady(function () {
+          t_onFuncLoad("t702_initPopup", function () {
+            t702_initPopup("255332118");
+          });
+          /* fix for Android */
+          var userAgent = navigator.userAgent.toLowerCase();
+          var isAndroid = userAgent.indexOf("android") !== -1;
+          var body = document.body;
+          if (!body) return;
+          var isScrollablefFix = body.classList.contains(
+            "t-body_scrollable-fix-for-android"
+          );
+          if (isAndroid && !isScrollablefFix) {
+            body.classList.add("t-body_scrollable-fix-for-android");
+            document.head.insertAdjacentHTML(
+              "beforeend",
+              "<style>@media screen and (max-width: 560px) {\n.t-body_scrollable-fix-for-android {\noverflow: visible !important;\n}\n}\n</style>"
+            );
+            console.log("Android css fix was inited");
+          }
+        });
+      </script>
+    </div>
+    <div
+      id="rec178854973"
+      class="r t-rec t-rec_pt_90 t-rec_pb_15 t-screenmin-480px"
+      style="padding-top: 90px; padding-bottom: 15px"
+      data-animationappear="off"
+      data-record-type="255"
+      data-screen-min="480px"
+    >
       <!--footer-->
       <div
         id="t-footer"
@@ -4327,7 +4237,7 @@ c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5L25.503,16.881z"
                 <ul class="t457__ul">
                   <li class="t457__li">
                     <a
-                      href="index.htm"
+                      href="./Totalprint3D.html"
                       style="color: #ffffff"
                       data-menu-item-number="1"
                       >3D-печать</a
@@ -4335,7 +4245,7 @@ c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5L25.503,16.881z"
                   </li>
                   <li class="t457__li">
                     <a
-                      href="3dscanning.htm"
+                      href="3dscanning.html"
                       style="color: #ffffff"
                       data-menu-item-number="2"
                       >3D-сканирование</a
@@ -4343,7 +4253,7 @@ c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5L25.503,16.881z"
                   </li>
                   <li class="t457__li">
                     <a
-                      href="gears.htm"
+                      href="gears.html"
                       style="color: #ffffff"
                       data-menu-item-number="3"
                       >Шестеренки</a
@@ -4351,7 +4261,7 @@ c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5L25.503,16.881z"
                   </li>
                   <li class="t457__li">
                     <a
-                      href="price.htm"
+                      href="./price.html"
                       style="color: #ffffff"
                       data-menu-item-number="4"
                       >Цены</a
@@ -4359,7 +4269,7 @@ c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5L25.503,16.881z"
                   </li>
                   <li class="t457__li">
                     <a
-                      href="contacts.htm"
+                      href="contacts.html"
                       style="color: #ffffff"
                       data-menu-item-number="5"
                       >Контакты и оплата</a
@@ -4370,14 +4280,14 @@ c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5L25.503,16.881z"
               <div class="t457__col_mt30 t-col t-col_12">
                 <a
                   class="t457__link"
-                  href="3dscanning.htm"
+                  href="gears.html"
                   style="color: #ffffff; font-size: 28px; font-weight: 600"
                   ><img
                     class="t457__logo t457__img t-img"
-                    src="https://static.tildacdn.com/tild3664-6632-4134-a333-646564653265/-/empty/noroot.png"
-                    data-original="https://static.tildacdn.com/tild3664-6632-4134-a333-646564653265/noroot.png"
+                    src="./img/logo.png"
+                    data-original="./img/logo.png"
                     imgfield="img"
-                    alt=""
+                    alt="лого"
                 /></a>
               </div>
               <div class="t-col t-col_12">
@@ -4387,17 +4297,7 @@ c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5L25.503,16.881z"
                   style="color: #ffffff; line-height: 1.5"
                 >
                   <div style="color: #939393" data-customstyle="yes">
-                    © Все права защищены.<br /><a
-                      href="http://totalprint3d.ru/privacy"
-                      style="
-                        text-decoration: none;
-                        border-bottom: 1px solid #ffa600;
-                        box-shadow: inset 0px -1px 0px 0px #ffa600;
-                        -webkit-box-shadow: inset 0px -1px 0px 0px #ffa600;
-                        -moz-box-shadow: inset 0px -1px 0px 0px #ffa600;
-                      "
-                      >Политика конфиденциальности</a
-                    >
+                    © Все права защищены.<br />
                   </div>
                 </div>
               </div>
