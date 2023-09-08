@@ -16,7 +16,6 @@ const message = {
 };
 
 const form = document.querySelector("#form");
-console.log(form);
 const postData = async (url, data) => {
   let res = await fetch(url, {
     method: "POST",
