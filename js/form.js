@@ -1,21 +1,9 @@
-// export default function form() {
 const input = document.querySelectorAll("input");
 const textArea = document.querySelector("textarea");
 const button = document.querySelector(".t182__btn");
-const success = document.querySelector(".popup__text-success");
-const error = document.querySelector(".popup__text-error");
-
-// button.addEventListener("click", (e) => {
-//   e.preventDefault();
-// });
-
-const message = {
-  loading: "img/load.gif",
-  success: "img/ok.png",
-  error: "img/error.png",
-};
-
+const lastInput = document.querySelector(".t-input-group.t-input-group_cb");
 const form = document.querySelector("#form");
+
 const postData = async (url, data) => {
   let res = await fetch(url, {
     method: "POST",
@@ -36,36 +24,27 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   let statusMessage = document.createElement("div");
-  statusMessage.classList.add("popup__status");
-  form.appendChild(statusMessage);
+  statusMessage.style.fontSize = "20px";
+  statusMessage.style.width = "100%";
+  statusMessage.style.textAlign = "center";
 
-  let statusImg = document.createElement("img");
-  statusImg.classList.add("popup__status-img");
-  // statusImg.setAttribute("src", message.loading);
-  statusMessage.appendChild(statusImg);
+  lastInput.appendChild(statusMessage);
 
   const formData = new FormData(form);
 
   postData("mailer/smart.php", formData)
-    .then((res) => {
-      console.log(res);
-      // statusImg.setAttribute("src", message.success);
-      // success.style.display = "block";
+    .then(() => {
+      statusMessage.style.color = "green";
+      statusMessage.textContent = "письмо отправлено, ожидайте звонка.";
     })
-    .catch((e) => {
-      console.log(e);
-      // statusImg.setAttribute("src", message.error);
-      // error.style.display = "block";
+    .catch(() => {
+      statusMessage.style.color = "red";
+      statusMessage.style.color = "ошибка при отправки письма.";
     })
     .finally(() => {
       clearInput();
       setTimeout(() => {
         statusMessage.remove();
-        // success.style.display = "none";
-        // error.style.display = "none";
-      }, 5000);
+      }, 7000);
     });
 });
-// }
-
-// form();
