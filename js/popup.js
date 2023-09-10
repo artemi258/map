@@ -1,16 +1,14 @@
 const popup = document.querySelector(".t-popup");
-const btnMain = document.querySelector(".t182__btn ");
-const btn = document.querySelector(".t744__btn-wrapper");
+const btnPopup = document.querySelectorAll(".btn__popup");
 const close = document.querySelector(".t-popup__block-close-button");
 
-btn.addEventListener("click", () => {
-  popup.style.display = "block";
-  popup.style.opacity = "1";
+btnPopup.forEach((item) => {
+  item.addEventListener("click", () => {
+    popup.style.display = "block";
+    popup.style.opacity = "1";
+  });
 });
-btnMain.addEventListener("click", () => {
-  popup.style.display = "block";
-  popup.style.opacity = "1";
-});
+
 close.addEventListener("click", (e) => {
   popup.style.display = "none";
   popup.style.opacity = "0";
